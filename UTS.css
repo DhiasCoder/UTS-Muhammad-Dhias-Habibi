@@ -1,0 +1,213 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+.Pembungkus {
+  width: 1120px;
+  height: 920px;
+  background-color: rgb(186, 233, 233);
+  border: outset 4px grey;
+}
+.Header {
+  width: 1100px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+  border: inset 3px honeydew;
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 3px 4px 2px whitesmoke;
+}
+.Nav {
+  width: 1100px;
+  height: 50px;
+  background-color: pink;
+  border: inset 3px hotpink;
+}
+.Content {
+  width: 1100px;
+  height: 600px;
+  background-color: rgb(153, 205, 251);
+  border: inset 3px grey;
+}
+.Sidebar {
+  float: left;
+  margin: 3px 3px 3px 3px;
+  width: 200px;
+  height: 587px;
+  background-color: rgb(153, 251, 181);
+  border: inset 3px grey;
+}
+.Sidebar2 {
+  float: right;
+  margin: 3px 3px 3px 3px;
+  width: 200px;
+  height: 587px;
+  background-color: rgb(153, 251, 181);
+  border: inset 3px grey;
+}
+.Isi {
+  margin: 3px 3px 3px 3px;
+  float: right;
+  width: 667px;
+  height: 587px;
+  background-color: rgb(153, 251, 181);
+  border: inset 3px grey;
+  overflow: auto;
+}
+.Footer {
+  padding-top: 50px;
+  width: 1100px;
+  height: 50px;
+  background-color: brown;
+  border: inset 3px grey;
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  text-shadow: 3px 4px 2px whitesmoke;
+}
+.Isi h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+.Isi p {
+  text-align: justify;
+  padding: 10px;
+  line-height: 20px;
+  font-size: 14pt;
+  text-indent: 35px;
+}
+
+/* Menu */
+.Nav ul {
+  list-style: none;
+}
+.Nav ul li {
+  float: left;
+  position: relative;
+}
+.Nav ul li a {
+  color: blueviolet;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  width: 247px;
+  background-color: beige;
+  padding: 10px;
+  margin-left: 2px;
+  text-align: center;
+  margin-top: 3px;
+  font-size: 14pt;
+  border: outset 3px red;
+}
+
+.Nav ul li :hover {
+  color: black;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+/* Sidebar */
+.Sidebar2 .login {
+  text-align: center;
+  color: azure;
+  background-color: brown;
+  padding: 10px;
+}
+.Sidebar .head2 {
+  text-align: center;
+  color: azure;
+  background-color: brown;
+  padding: 10px;
+}
+.Sidebar .head {
+  text-align: center;
+  color: azure;
+  background-color: brown;
+  padding: 10px;
+}
+
+.Sidebar ul li {
+  list-style: none;
+}
+
+.Sidebar ul li a {
+  color: white;
+  font-size: 14pt;
+  background-color: greenyellow;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  border: outset 3px red;
+  font-weight: bold;
+}
+
+.Sidebar ul li :hover {
+  font-weight: bold;
+  color: black;
+  background-color: transparent;
+}
+.label {
+  font-size: 16pt;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  border: solid 1px #ccc;
+  box-sizing: border-box;
+}
+.gallery {
+  padding-top: 20px;
+  padding-left: 75px;
+}
+.kotak {
+  width: 150px;
+  height: 150px;
+  background-color: seashell;
+  border: 3px palevioletred solid;
+  margin: 10px;
+  float: left;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.kotak img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 5px;
+  padding-left: 50px;
+}
+.title {
+  font-family: sans-serif;
+  color: black;
+  text-shadow: 3px 2px 4px white;
+  font-size: 2em;
+  padding-right: 50px;
+}
+.button {
+  background-color: grey;
+  color: white;
+  border: inset 3px black;
+  font-size: 20pt;
+  margin: 4px 2px;
+  padding: 3px;
+  text-align: center;
+  font-weight: bold;
+  width: 98%;
+}
+.button:hover {
+  background-color: paleturquoise;
+}
